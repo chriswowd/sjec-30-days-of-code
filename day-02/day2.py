@@ -1,6 +1,6 @@
 nooftri=int(input())
 tris = [list(map(int,input().split())) for i in range(nooftri)]
-print(tris)
+
 for i,tris in enumerate(tris):
         tris.sort()
         if i % 3 == 0:
